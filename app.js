@@ -12,7 +12,7 @@ const productRoute = require('./routes/product');
 const orderRoute = require('./routes/order');
 
 const app = express();
-const PORT = process.env.PORT || 3200;
+const PORT = process.env.PORT || 8080;
 
 // Database Connection
 mongoose.connect(process.env.DATABASEURL, {
